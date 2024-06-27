@@ -33,7 +33,7 @@ function App() {
 
   useEffect(() => {
     checkUser();
-  }, []);
+  }, [navigate]);
 
   return (
     <AppState.Provider value={{ user, setuser }}>
